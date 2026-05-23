@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: rgb(206, 231, 203);
+    border-bottom: 2px solid black;
+}
+
+nav h1{
+    font-size: 32px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+
+.saya{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    background-color: #05953c;
+    min-height: 90vh;
+}
+
+.saya-text{
+    width: 50%;
+}
+
+.saya-text h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.saya-text p{
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.saya img{
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+.about{
+    padding: 80px 60px;
+    background-color: rgb(206, 231, 203);
+    text-align: center;
+}
+
+.about h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.contact{
+    padding: 80px 60px;
+    text-align: center;
+    background-color: #05953c;
+}
+
+.contact h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: rgb(206, 231, 203);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover{
+    color: blue;
+}
+.contact{
+    text-align: center;
+}
+
+.contact-box{
+    display: inline-block;
+    text-align: left;
+}
+
+.contact p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
